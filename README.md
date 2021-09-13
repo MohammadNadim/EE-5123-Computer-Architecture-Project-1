@@ -8,7 +8,7 @@ The disassembled instruction opcode (if the current location is before the BREAK
 If you are displaying an instruction, the fourth column should contain the remaining part of the instruction, with each argument separated by a comma and then a space. (“, “)
 The instructions and instruction arguments should be in capital letters. All integer values should be displayed in decimal. Immediate values should be proceeded by a “#” symbol. Please be careful that some instructions take signed immediate values while others take unsigned immediate values. Make sure that you properly display a signed or unsigned value depending on the context.
 Your disassembler needs to support the following 27 MIPS32 instructions (not just those in the fib example). The encoding details of these instructions can be found in the attached MIPS32 architecture manual.
-##J, JR, BEQ, BNE, BGEZ, BGTZ, BLEZ, BLTZ
+## J, JR, BEQ, BNE, BGEZ, BGTZ, BLEZ, BLTZ
 ##ADD, ADDU, SUB, SUBU
 ##ADDI, ADDIU
 ##SLL, SRL, SRA
